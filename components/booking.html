@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>EasyFlow Plumbing</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="../img/favicon2.png" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Roboto:wght@500;700&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="../lib/animate/animate.min.css" rel="stylesheet">
+    <link href="../lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="../lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- BoxIcon Link -->
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+
+    <!-- Font Awesome Script -->
+    <script src="https://kit.fontawesome.com/655b3b7e45.js" crossorigin="anonymous"></script>
+
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="../css/style.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="container-loader">
+      <div class="top">
+        <div class="square">
+          <div class="square">
+            <div class="square">
+              <div class="square">
+                <div class="square"><div class="square">
+                </div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bottom">
+        <div class="square">
+          <div class="square">
+            <div class="square">
+              <div class="square">
+                <div class="square"><div class="square">
+                </div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="left">
+        <div class="square">
+          <div class="square">
+            <div class="square">
+              <div class="square">
+                <div class="square"><div class="square">
+                </div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="right">
+        <div class="square">
+          <div class="square">
+            <div class="square">
+              <div class="square">
+                <div class="square"><div class="square">
+                </div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+   
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-light d-none d-lg-block">
+      <div class="row align-items-center top-bar">
+        <div class="col-lg-3 col-md-12 text-center text-lg-start">
+          <a href="index.html" class="navbar-brand m-0 p-0">
+            <h1 class="m-0 heading">EasyFlow</h1>
+          </a>
+        </div>
+        <div class="col-lg-9 col-md-12 text-end">
+          <div class="h-100 d-inline-flex align-items-center me-4">
+            <i class="fa fa-map-marker-alt me-2 icon"></i>
+            <p class="m-0 paragraph">Durban, Kzn, South Africa</p>
+          </div>
+          <div class="h-100 d-inline-flex align-items-center me-4">
+            <!-- <i class="far fa-envelope-open me-2 icon"></i> -->
+            <i class="fa-solid fa-envelope me-2 icon"></i>
+            <p class="m-0 paragraph">designxfolio@gmail.com</p>
+          </div>
+          <!-- btn-sm-square bg-white -->
+          <div class="h-100 d-inline-flex align-items-center icon-container">
+            <a class="btn me-1" href=""><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAe9JREFUSEu1lj9IV1EUxz9fEDKsIVyiQlwcBEMaDUEapCJCJYdIWgpMHMQQxCHKiIagKIf+gENL4BAKRemkNESzo38KItGWhgZBQfH0btyfvN/tvauP/N3t3fPnc86955z7RIWXKuyfKMDMDgFXgAtAM1APGPAdmAdmgClJW3mB5gLM7CLwwjuNJfoV6JM0m6WUCTCz0STSewWObwcYlvQktPkHYGb3gbsFnKdVByWNpTfKAGZ2GXgfcf4LGAI+Sfrh9Mzssd9zny6TNkmfSz52AYniEWAZOJ4D2AaaJC2m5QHAiZz8dOni04A+4GUk+glJ10pyM2sHzgLngZbArlPSO7eXBnwALkUAdyQ99MfSDbyN6I5L6g0Bq8CJiNFtSc88YBB4GtGdTzI4EwI2gOoDAvxOqulYCFgHagLAT0mxrFwVzQHnArv1pCeOhoAloCFQXJN0MtYTZrYCnAp0FiQ1hoA3SZn2FMnAz6rNjABeJ31yIwRcBSYO6A4yy7QK+AbU5UD2W0W7x1OWgS8/N0Gn/wPgRnmrpC8lH1nDzg2rgQzIfjJ4IKlsUGYB3N4r4G8nptZegEeSRsLAYg/Odd+ttd4oD+AmwC1JH7OOdq8n8zBwE+jyT+Nzf1f9QEcyNScBV5LFn8xYcxWRVfyv4g8hocIZ7BalugAAAABJRU5ErkJggg=="/></a>
+            <a class="btn me-1" href=""><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAmhJREFUSEvFlUuIT2EYxn8PC3eaHZlJhIjCyGVDUmZI2biUKWUSxbgkNQs2FAuxYZBSE8VCsZjS5C6kkImNS4rJZOWSohDG47z1Tf39/c8Zm2m+5TnveZ/vfd7neY7o46M+7k//A9ieDawBFgKTgW7gHvAAuCLpcRELuRPYrgFOAfXAFyAaPQe+A7OAGcAo4DCwR9KPSkAVAWzHTW8Bg4CdwFlJLm9ge1sCeA2skvS0vOYfANujgUeJisWSXhVRYHt6NlEbMACYJulraX0lgHZgLjBHUqftscAISS/ygBJIB9AqaXMugO0FwB1gg6RW21PTNO+B8ZVo6mlmezdwAKiTdK3n+V8T2G4BGoEqST9tNwMHU3G9pKsFUwxJYmiTtDIP4AnQJWlFFNjeAhxPxY2STveyj/geSTPzAN5m/LdL2pQAxgCdwCegRtKvXgBOAg2SRuYBvAQ6JK0t4TakeBQ4AWztZQ9B5w5Jg/MALif+55XeNFv2+eTmkGMADgWCrlbggqSYMCiNulpJk/IA9gOx2GpJ70qmGJgBHwGagM9Bc0g3vT+Uab/ZdvjgA3BR0sY8gAlAGGufpL0VnLsk0TUlvfsNLA1Z2m4AzkW0lKqtktFCCd2SIuQqHtu1QCzyTTLjOOBhZJWkRUVGG5YU0yJpV5FiSuiL5tcTYLi/qwhgOXApo2kdEOPXZRTcz1x8RtK3ssVXA+uB7bHfLAEit4rDzvaxtMieXvHBRCCi+HbyRDSLrJqfiu6G+/NCsTwqIkNiyTeBG5I+2h4OrM5+MMuAkG9VJtlnKbNCosF97un/X+b/LLpfJ/gDTNjyGVIqbQEAAAAASUVORK5CYII="/></a>
+            <a class="btn me-0" href=""><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAg5JREFUSEvFlU+IjlEUxn+PP0lKJCkLGyQx/jRjaawsaRZDKTaWJoqFLKRkYaFEjZXtaFhMYiUbyUZsxiQpzWLKymzUUGJmHvfo/b7u3Hnf+r70NWf1vvec8zz3/L2ix6Ie47MyBLZ3AleAo8B+aLyIgY/AG+CepC9lRpZFYPtCGANru0zfH2BE0sPcbwmB7X7gHbCqS/CW+TwwIOlD66AkeAoMdQH+DegDTgGjld+EpOEmghlgRw3BV+A28AnYAuwBrgEzkvpsDwDvK79pSbuaCH4AGwqCl6mQw5LmbG8NnaRZ2/uAF8DPVLNNwLbKb07SxmUEtiPvCwX4LLAbCLCzwDEgOuc1MAasrjood5uX1G6Qdg1sx+HvguCOpKvp5g+A6K5cRiVdtP0cOJEpFiStqYsgDqPVcjkPPKtuHPOQy5Skg7ZvpKzdzBSLkiKyf5JHEN+LBcgI8Dil5hVwoNBNSjps+3pK1a1cJ6mNW7Zp5DeXMUnnbN8HLhW6mNzLtiPCk5muvgZhYLskiIgOAeuBM8BgBRRFHk+tu66myL8khf3SFFUEdW0aszEkaTKPwHbsqUjf9iKy75I2NxHEsmoPSV64NLETxaAdL4Bbv58l7W0ieJJATjc4dnr8SFLMTG2KjgBv/3PZ9UuaqiWo6tC7dd1iLR6c2JZNkj84d1NLT5eGK/NkdlrNTux6HsFfblmsGZDoHZYAAAAASUVORK5CYII="/></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Topbar End -->
+
+    <!-- Navbar Start -->
+    <div class="container-fluid nav-bar">
+      <nav
+        class="navbar navbar-expand-lg navbar-light bg-white p-3 py-lg-0 px-lg-4"
+      >
+        <a
+          href="../index.html"
+          class="navbar-brand linked d-flex align-items-center m-0 p-0 d-lg-none"
+        >
+          <h1 class="mobile-heading m-0">EasyFlow</h1>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarCollapse"
+        >
+          <span class="fa fa-bars"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <div class="navbar-nav me-auto">
+            <a href="../index.html" class="nav-item nav-link active">Home</a>
+            <a href="about.html" class="nav-item nav-link">About</a>
+            <a href="service.html" class="nav-item nav-link">Services</a>
+            <div class="nav-item dropdown">
+              <a
+                href="#"
+                class="nav-link dropdown-toggle"
+                data-bs-toggle="dropdown"
+                >Pages</a
+              >
+              <div class="dropdown-menu fade-up m-0">
+                <a href="booking.html" class="dropdown-item">Request Service</a>
+                <a href="team.html" class="dropdown-item">Team</a>
+                <a href="testimonial.html" class="dropdown-item">Customer Reviews</a>
+              </div>
+            </div>
+            <a href="contact.html" class="nav-item nav-link">Contact</a>
+          </div>
+          <!-- bg-primary -->
+          <div
+            class="mt-4 mt-lg-0 me-lg-n4 py-3 px-4 d-flex align-items-center"
+          >
+            <!-- bg-white -->
+            <div
+              class="d-flex flex-shrink-0 align-items-center bg-white justify-content-center navbar-container"
+              style="width: 120px; height: 30px"
+            >
+            <i class="fa-solid fa-phone text-primary"></i>
+              <p class="mb-1 text-emergency">Quote Now</p>
+            </div>
+            <div class="ms-3 emergency-container">
+              <h5 class="m-0 text-number">+27 69 702 0214</h5>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <!-- Navbar End -->
+
+
+    <!-- Page Header Start -->
+    <div class="container-fluid page-header mb-5 py-5">
+        <div class="container">
+            <h1 class="display-3 text-white mb-3 animated slideInDown">Quote Request</h1>
+            <nav aria-label="breadcrumb animated slideInDown">
+                <ol class="breadcrumb text-uppercase">
+                    <li class="breadcrumb-item"><a class="text-white" href="../index.html">Home</a></li>
+                    <li class="breadcrumb-item"><a class="text-white" href="">Pages</a></li>
+                    <li class="breadcrumb-item text-white active" aria-current="page">Quote</li>
+                </ol>
+            </nav>
+        </div>
+    </div>
+    <!-- Page Header End -->
+
+
+    <!-- Booking Start -->
+    <div class="container-fluid px-0" style="margin: 6rem 0;">
+        <div class="video wow fadeInUp" data-wow-delay="0.1s">
+            <button type="button" class="btn-play" data-bs-toggle="modal" data-src="https://www.youtube.com/embed/DWRcNpR6Kdc" data-bs-target="#videoModal">
+                <span></span>
+            </button>
+
+            <div class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content rounded-0">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Youtube Video</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <!-- 16:9 aspect ratio -->
+                            <div class="ratio ratio-16x9">
+                                <iframe class="embed-responsive-item" src="" id="video" allowfullscreen allowscriptaccess="always"
+                                    allow="autoplay"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <h1 class="text-white mb-4">Emergency Plumbing Service</h1>
+            <h3 class="text-white mb-0">24 Hours 7 Days a Week</h3>
+        </div>
+        <div class="container position-relative wow fadeInUp" data-wow-delay="0.1s" style="margin-top: -6rem;">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="bg-light text-center p-5">
+                        <h1 class="mb-4">Book For A Service</h1>
+                        <p class="mb-4">Powered By FormSpree</p>
+                        <form action="https://formspree.io/f/xeqygllk" name="plumbing-quote" method="POST">
+                          <div class="row g-3">
+                            <div class="col-12 col-sm-6">
+                              <input
+                                type="text"
+                                class="form-control border-0"
+                                placeholder="Your Name"
+                                name="name"
+                                style="height: 55px"
+                                required
+                              />
+                            </div>
+                            <div class="col-12 col-sm-6">
+                              <input
+                                type="email"
+                                class="form-control border-0"
+                                name="email"
+                                placeholder="Your Email"
+                                style="height: 55px"
+                                required
+                              />
+                            </div>
+                            <div class="col-12 col-sm-6">
+                              <select class="form-select border-0" name="service-selected" id="service-select" style="height: 55px" required>
+                                <option selected>Select A Service</option>
+                                <option value="Leak Repair">Leak Repair</option>
+                                <option value="Drain Cleaning">Drain Cleaning</option>
+                                <option value="Toilet Repair/Replacement">Toilet Repair/Replacement</option>
+                                <option value="Water Heater Repair/Replacement">Water Heater Repair/Replacement</option>
+                                <option value="Pipe Repair/Replacement">Pipe Repair/Replacement</option>
+                                <option value="Sewer Line Repair/Replacement">Sewer Line Repair/Replacement</option>
+                                <option value="Fixture Installation">Fixture Installation</option>
+                                <option value="Water Filtration System Installation/Repair">Water Filtration System Installation/Repair</option>
+                                <option value="Gas Line Installation/Repair">Gas Line Installation/Repair</option>
+                                <option value="Emergency Plumbing Services">Emergency Plumbing Services</option>
+                                <option value="Bathroom Remodeling">Bathroom Remodeling</option>
+          
+                              </select>
+                              <input type="hidden" name="selected-service" id="selected-service" required>
+                              
+                            </div>
+                            <div class="col-12 col-sm-6">
+                              <div class="date" id="date1" data-target-input="nearest">
+                                <input
+                                  type="text"
+                                  class="form-control border-0 datetimepicker-input"
+                                  placeholder="Service Date"
+                                  name="date"
+                                  data-target="#date1"
+                                  data-toggle="datetimepicker"
+                                  style="height: 55px"
+                                  required
+                                />
+                              </div>
+                            </div>
+                            <div class="col-12">
+                              <textarea
+                                class="form-control border-0"
+                                placeholder="Your Request"
+                                name="message"
+                                required
+                              ></textarea>
+                            </div>
+                            <div class="col-12">
+                              <button class="btn btn-primary w-100 py-3" name="submit" type="submit">
+                                Book Now
+                              </button>
+                            </div>
+                          </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Booking End -->
+        
+
+    <!-- Footer Start -->
+    <div
+      class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn"
+      data-wow-delay="0.1s"
+    >
+      <div class="container py-5">
+        <div class="row g-5">
+          <div class="col-lg-3 col-md-4">
+            <h4 class="text-light mb-4">Address</h4>
+            <p class="mb-2">
+              <i class="fa fa-map-marker-alt me-3"></i>Durban, KZN, South Africa
+            </p>
+            <p class="mb-2">
+              <i class="fa fa-phone-alt me-3"></i>+27 69 702 0214
+            </p>
+            <p class="mb-2">
+              <i class="fa fa-envelope me-3"></i>designxfolio@gmail.com
+            </p>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h4 class="text-light mb-4">Opening Hours</h4>
+            <h6 class="text-light">Monday - Friday:</h6>
+            <p class="mb-4">09.00 AM - 09.00 PM</p>
+            <h6 class="text-light">Saturday - Sunday:</h6>
+            <p class="mb-0">09.00 AM - 12.00 PM</p>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h4 class="text-light mb-4">Services</h4>
+            <a class="btn btn-link" href="">Drain Cleaning</a>
+            <a class="btn btn-link" href="">Sewer Line</a>
+            <a class="btn btn-link" href="">Water Heating</a>
+            <a class="btn btn-link" href="">Toilet Cleaning</a>
+            <a class="btn btn-link" href="">Broken Pipe</a>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <!-- <h4 class="text-light mb-4"></h4> -->
+            <p>At EasyFlow:</p>
+            <p>We Do It All; We Do It Right.</p>
+            <p>We Always Bring The Solutions.</p>
+
+            <div class="d-flex pt-2">
+              <a class="btn btn-outline-light btn-social" href=""
+                ><i class="fab fa-whatsapp"></i
+              ></a>
+              <a class="btn btn-outline-light btn-social" href=""
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a class="btn btn-outline-light btn-social" href=""
+                ><i class="fab fa-youtube"></i
+              ></a>
+              <a class="btn btn-outline-light btn-social" href=""
+                ><i class="fab fa-instagram"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="copyright">
+          <div class="row">
+            <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+              &copy; <a class="border-bottom" href="#">EasyFlow 2024</a>, All
+              Right Reserved.
+            </div>
+            <div class="col-md-6 text-center text-md-end">
+              Developed By
+              <a class="border-bottom" href="https://www.webfolio.co.za"
+                >Rahul Dawpersad</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-0 back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+    <script>
+        document.getElementById('service-select').addEventListener('change', function() {
+          var selectedService = this.value;
+          document.getElementById('selected-service').value = selectedService;
+        });
+      </script>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../lib/wow/wow.min.js"></script>
+    <script src="../lib/easing/easing.min.js"></script>
+    <script src="../lib/waypoints/waypoints.min.js"></script>
+    <script src="../lib/counterup/counterup.min.js"></script>
+    <script src="../lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="../lib/tempusdominus/js/moment.min.js"></script>
+    <script src="../lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="../lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="../js/main.js"></script>
+</body>
+
+</html>
